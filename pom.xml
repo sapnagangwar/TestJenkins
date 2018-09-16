@@ -20,4 +20,18 @@
 		</dependency>
 
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>myMavenRepo.read</id>
+			<url>https://mymavenrepo.com/repo/vKALQrXxrVeaVl8IEpfE/</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepo.write</id>
+			<url>https://mymavenrepo.com/repo/Vtw9E2cEN1GdPYIV7VtG/</url>
+		</repository>
+	</distributionManagement>
 </project>
